@@ -19,6 +19,8 @@
 <template>
   <Header />
   <StoreLinks />
+  <Footer />
+  <socials />
 </template>
 
 <style lang="scss" scoped>

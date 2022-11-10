@@ -1,6 +1,7 @@
 :root{
   --main-blue:#0282f9;
   --main-gray:#303030;
+  --light-gray: #949494;
   --white: #ffffff;
   --black: #000000;
 }
@@ -21,7 +22,7 @@ img{
   height: auto;
 
   .linkWrapper{
-    margin: 0 0.5rem;
+    padding: 0 0.5rem;
     height: 100%;
     text-transform: uppercase;
     display: flex;
@@ -55,4 +56,25 @@ img{
     img{
       width: 40%;
     }
+}
+
+#footer{
+  background-image: url(./assets/img/footer-bg.jpg);
+
+  ul{
+    color: white;
+    list-style-type: none;
+    li{
+      a{
+        color: var(--light-gray);
+        text-decoration: none;
+      }
+    }
+  }
+
+  .dcBackground{
+    background-image: url(./assets/img/dc-logo-bg.png);
+    height: 100%;
+    
+  }
 }
