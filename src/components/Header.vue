@@ -1,0 +1,55 @@
+<script>
+    export default{
+
+    }
+</script>
+
+<template>
+    <nav class="d-flex justify-content-center">
+        
+        <div class="section d-flex justify-content-between p-4">
+            <div class="imgWrapper">
+                <img src="../assets/img/dc-logo.png" alt="">
+            </div>
+
+            <div class="navLinksWrapper d-flex align-items-center">
+                <div class="linkWrapper">
+                    <a href="#">Characters</a>
+                </div>
+                <div class="linkWrapper">
+                    <a href="#">Comics</a>
+                </div>
+                <div class="linkWrapper">
+                    <a href="#">Movies</a>
+                </div>
+                <div class="linkWrapper">
+                    <a href="#">Characters</a>
+                </div>
+                <div class="linkWrapper">
+                    <a href="#">Comics</a>
+                </div>
+                <div class="linkWrapper">
+                    <a href="#">Movies</a>
+                </div>
+                <div class="linkWrapper">
+                    <a href="#">Characters</a>
+                </div>
+                <div class="linkWrapper">
+                    <a href="#">Comics</a>
+                </div>
+                <div class="linkWrapper">
+                    <a href="#">Movies</a>
+                </div>
+                <div class="linkWrapper">
+                    <a href="#">Characters</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</template>
+
+<style lang="scss" scoped>
+
+    
+
+</style>
