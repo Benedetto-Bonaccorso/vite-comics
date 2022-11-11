@@ -54,7 +54,7 @@ img{
       font-size: small;
     }
     img{
-      width: 40%;
+      width: 35%;
     }
 }
 
@@ -106,5 +106,27 @@ img{
       text-decoration: none;
     }
 
+  }
+}
+
+#main{
+
+  
+
+  .jumbotron{
+    position: relative;
+    background-image: url(./assets/img/jumbotron.jpg);
+    background-color: var(--light-gray);
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    background-color: var(--ps-blue);
+    height: 50vh;
+  }
+
+  .current-series-ad{
+    position: absolute;
+    background-color: var(--main-blue);
+    bottom: -30px;
+    margin-left: 10%;
   }
 }

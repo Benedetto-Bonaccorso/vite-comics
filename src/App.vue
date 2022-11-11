@@ -4,6 +4,7 @@
   import Footer from "./components/Footer.vue"
   import Socials from "./components/Socials.vue"
   import StoreLinks from "./components/StoreLinks.vue"
+
   export default{
     name: "app",
     components:{
@@ -12,12 +13,13 @@
       Footer,
       Socials,
       StoreLinks,
-    }
+    },
   }
 </script>
 
 <template>
   <Header />
+  <Main />
   <StoreLinks />
   <Footer />
   <socials />
