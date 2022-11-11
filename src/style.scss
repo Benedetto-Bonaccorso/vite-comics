@@ -73,8 +73,38 @@ img{
   }
 
   .dcBackground{
-    background-image: url(./assets/img/dc-logo-bg.png);
-    height: 100%;
-    
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    img{
+      transform: translateY(-20%);
+      position: absolute;
+      width: 80%;
+      aspect-ratio: 1/1;   
+      overflow: hidden;
+    }
+  }
+}
+
+#socials{
+  background-color: var(--main-gray);
+
+  .signUpNowWrapper{
+    button{
+      border: 3px solid var(--main-blue);
+      background-color: var(--main-gray);
+      color: var(--white);
+      padding: 0.5rem;
+      text-transform: uppercase;
+    }
+  }
+
+  .socialsWrapper{
+    a{
+      padding: 0 1rem;
+      color: var(--main-blue);
+      text-decoration: none;
+    }
+
   }
 }

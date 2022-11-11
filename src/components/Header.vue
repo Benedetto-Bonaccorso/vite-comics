@@ -7,8 +7,8 @@
 <template>
     <nav class="d-flex justify-content-center">
         
-        <div class="section d-flex justify-content-between p-4">
-            <div class="imgWrapper">
+        <div class="section d-flex justify-content-between">
+            <div class="imgWrapper p-4">
                 <img src="../assets/img/dc-logo.png" alt="">
             </div>
 

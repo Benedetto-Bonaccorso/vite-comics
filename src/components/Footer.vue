@@ -3,8 +3,8 @@
 </script>
 
 <template>
-    <div id="footer" class="d-flex justify-content-center p-4">
-        <div class="section d-flex">
+    <div id="footer" class="d-flex justify-content-center">
+        <div class="section d-flex p-5">
             <div class="links">
                 <ul> DC COMICS
                     <li>
@@ -87,9 +87,7 @@
             </div>
         </div>
         <div class="dcBackground">
-            <div class="backgroundCover">
-                
-            </div>
+            <img src="../assets/img/dc-logo-bg.png" alt="">
         </div>
     </div>
 </template>
