@@ -1,8 +1,8 @@
 <script>
-  import Header from "./components/Header.vue"
-  import Main from "./components/Main.vue"
-  import Footer from "./components/Footer.vue"
-  import Socials from "./components/Socials.vue"
+  import Header from "./components/SiteHeader.vue"
+  import Main from "./components/SiteMain.vue"
+  import Footer from "./components/SiteFooter.vue"
+  import Socials from "./components/FooterSocials.vue"
   import StoreLinks from "./components/StoreLinks.vue"
 
   export default{

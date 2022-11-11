@@ -6,6 +6,9 @@
                 comics: Comics,
                 path: "../img/"
             }
+        },
+        mounted() {
+            console.log(this.comics);
         }
     }
 </script>
@@ -17,11 +20,12 @@
                 Current Series
             </h3>
         </div>
-
-        <div class="current-series">
-            <div v-for="(comic,i) in comics">
-                <h1>{{comic.price}}</h1>
-                <h1>{{comic}}</h1>
+        <div class="container-fluid titles p-4">
+            <div class="current-series row">
+                <div v-for="(comic,i) in comics" class="col-2 p-4">
+                    <img :src="comic.thumb" :alt="comic.series">
+                    <p>{{comic.series}}</p>
+                </div>
             </div>
         </div>
     </div>
